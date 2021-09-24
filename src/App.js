@@ -9,6 +9,12 @@ function App() {
 	return (
 		<Provider store={store}>
 			<h1>Calculatrice avec React et Redux</h1>
+			<p>
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe ex quis
+				ea ipsa, distinctio molestias repellat exercitationem accusamus dolore
+				eveniet, ipsum quas porro assumenda ducimus enim aliquid, deserunt
+				voluptates rem?
+			</p>
 			<div className='App'>
 				<Display />
 				<section id='numbers'>
